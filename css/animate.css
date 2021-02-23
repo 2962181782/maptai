@@ -1,0 +1,115 @@
+.h-3 {
+    transform-origin: left center;
+    animation: move 2s ease-in-out infinite;
+}
+
+.p1-bg .p1-9 {
+    animation: sex 10s linear forwards;
+}
+
+.p1-bg {
+    animation: Bg 2s ease-in forwards .5s;
+}
+
+.p1-4-1 {
+    animation: yao 2s ease-out infinite;
+}
+
+.play {
+    animation: home 2s ease-in forwards .5s;
+}
+
+.load-line {
+    animation: jia 10s linear forwards;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(15px, 15px) rotate(-90deg);
+    }
+    50% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    60% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    90% {
+        transform: translate(15px, 15px) rotate(-90deg);
+    }
+    100% {
+        transform: translate(15px, 15px) rotate(-90deg);
+    }
+}
+
+@keyframes sex {
+    0% {
+        opacity: 0.2;
+        transform: translate(-85px, 80px) scale(0.3);
+    }
+    30% {
+        opacity: 0.5;
+    }
+    70% {
+        opacity: 0.3;
+    }
+    90% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 0.2;
+        transform: translate(70px, -94px) scale(1.5);
+    }
+}
+
+@keyframes Bg {
+    from {
+        transform: scale(1) translate(0, 0px);
+        filter: blur(0px);
+    }
+    to {
+        transform: scale(2) translate(0, 53px);
+        filter: blur(3px);
+    }
+}
+
+@keyframes jia {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 1448px;
+    }
+}
+
+@keyframes yao {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    15% {
+        transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    }
+    30% {
+        transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    }
+    45% {
+        transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    }
+    60% {
+        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    }
+    75% {
+        transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes home {
+    from {
+        transform: scale(1) translate(0, 0px);
+    }
+    to {
+        transform: scale(2) translate(0, 33px);
+    }
+}

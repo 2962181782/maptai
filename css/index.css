@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: ddd;
+  src: url(../font/TrajanPro3-Regular.otf);
+}
+img {
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+i,
+em {
+  font-style: normal;
+}
+input,
+select {
+  outline: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.dn {
+  display: none;
+}
+div {
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img[src=""] {
+  display: none;
+}
+/*====== 建议body给稿子底色背景 ==============*/
+body,
+html,
+#box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #eddb99;
+  position: relative;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+::-webkit-input-placeholder {
+  color: #efecf1;
+}
+.pg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.dn {
+  display: none;
+}
+.cross .land-box .h-1 {
+  right: 89.33333333vw;
+  top: 1.6vw;
+  width: 7.2vw;
+  height: 14.8vw;
+  position: absolute;
+  top: 50%;
+  margin-top: -3.33333333%;
+  margin-top: -15px;
+}
+.cross .land-box .h-2 {
+  width: 4.13333333vw;
+  height: 6.8vw;
+  right: 82.53333333vw;
+  top: 0vw;
+  position: absolute;
+  top: 50%;
+  margin-top: -3.33333333%;
+}
+.cross .land-box .h-3 {
+  width: 15.2vw;
+  height: 7.6vw;
+  right: 81.2vw;
+  top: 0vw;
+  position: absolute;
+  top: 50%;
+  margin-top: 2%;
+}
+.cross .land-box2 .h-4 {
+  width: 22.93333333vw;
+  height: 9.2vw;
+  right: 77.33333333vw;
+  top: 0vw;
+  position: absolute;
+  top: 50%;
+  margin-top: 26.66666667vw;
+}
+.loading {
+  width: 100%;
+  height: 100%;
+  margin-left: -724px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+.loading .bg {
+  height: 106.66666667vw;
+}
+.loading .lad1 {
+  width: 12.93333333vw;
+  height: 35.2vw;
+  position: absolute;
+  right: 91.06666667vw;
+  top: 6.13333333vw;
+}
+.loading .lad2 {
+  width: 5.06666667vw;
+  height: 14.4vw;
+  position: absolute;
+  right: 85.33333333vw;
+  top: 16.26666667vw;
+}
+.loading .house .land1-1 {
+  width: 13.6vw;
+  height: 16vw;
+  position: absolute;
+  right: 112.53333333vw;
+  top: 56.26666667vw;
+}
+.loading .house .land1-2 {
+  width: 11.46666667vw;
+  height: 18.13333333vw;
+  position: absolute;
+  right: 97.33333333vw;
+  top: 56.26666667vw;
+}
+.loading .house .land1-3 {
+  width: 14.8vw;
+  height: 19.46666667vw;
+  position: absolute;
+  right: 80vw;
+  top: 56.26666667vw;
+}
+.loading .house .land1-4 {
+  width: 14.4vw;
+  height: 17.33333333vw;
+  position: absolute;
+  right: 64vw;
+  top: 56.26666667vw;
+}
+.loading .house .land1-5 {
+  width: 8.4vw;
+  height: 17.46666667vw;
+  position: absolute;
+  right: 56vw;
+  top: 56.26666667vw;
+}
+.loading .postead {
+  width: 193.06666667vw;
+  height: 0.26666667vw;
+  position: absolute;
+  left: 0vw;
+  top: 80vw;
+  z-index: 999999;
+  background-color: #000;
+}
+.loading .repear {
+  width: 193.06666667vw;
+  height: 0.26666667vw;
+  position: absolute;
+  left: 0vw;
+  top: 80vw;
+  background-color: #fff;
+}
+.loading .boot .lad-3 {
+  width: 11.33333333vw;
+  height: 12vw;
+  position: absolute;
+  left: 84vw;
+  top: 81.86666667vw;
+}
+.page1 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.page1 .p1-bg {
+  height: 100vw;
+}
+.page1 .bottle-box .p1-1 {
+  width: 44vw;
+  height: 5.2vw;
+  position: absolute;
+  left: 69.46666667vw;
+  top: 22.4vw;
+}
+.page1 .bottle-box .set .p1-4 {
+  width: 33.46666667vw;
+  height: 16.4vw;
+  position: absolute;
+  left: 78.66666667vw;
+  top: 26.66666667vw;
+}
+.page1 .bottle-box .set .p1-4-1 {
+  width: 10.13333333vw;
+  height: 10.13333333vw;
+  position: absolute;
+  right: 76.26666667vw;
+  top: 33.6vw;
+}
+.page1 .bottle-box .play {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+}
+.page1 .bottle-box .play .p1-3 {
+  width: 27.2vw;
+  height: 37.86666667vw;
+  position: absolute;
+  left: 78.66666667vw;
+  top: 57.33333333vw;
+}
+.page1 .bottle-box .play .p1-2 {
+  width: 14.93333333vw;
+  height: 18vw;
+  position: absolute;
+  left: 84.53333333vw;
+  top: 41.33333333vw;
+  z-index: 99999;
+}
+.page1 .bottle-box .tall {
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+}
+.page1 .bottle-box .tall .p1-9 {
+  width: 106.13333333vw;
+  height: 52.53333333vw;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+}
+@media screen and (orientation: portrait) {
+  .cross,
+  .loading-box,
+  .page1 {
+    width: 100vh;
+    height: 100vw;
+    display: block;
+    left: 0;
+    top: 0;
+    margin-left: 0;
+    margin-top: 0;
+    transform-origin: 0% 0%;
+    transform: translate(100vw, 0) rotate(90deg);
+  }
+}
